@@ -6,12 +6,47 @@
     <title>Document</title>
 </head>
 <body>
-    <img scr="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1HVNHQmF6XqXS0xqpvfcJFY3cQIAQEB3XmJ_edOZdMQ&s"
+    <!-- <img scr="/Desktop/Fullstack/Day_03/HTML_logo.webp"
     
     height="100"
     width="100"
     
-    alt="html logo">
+    alt="html logo"> -->
+
+    <form action="./SignUp.html" method="get" >
+        <label for="name">Enter Your Name :</label>
+        <input type="text" placeholder="Enter your Name" id="name" name="name" required minlength="2" maxlength="20">
+
+    <br><br>
+        <label for="age">Enter Your Age :</label>
+        <input type="number" placeholder="Enter Your Age" id="age" name="age" required min="1" max="150"> 
+
+
+    <br><br>
+        <label for="email">Enter Your Email :</label>
+        <input type="email" placeholder="Enter Your Email" id="email" name="email" required min="1" max="150"> 
+
+    <br><br>
+        <label for="pw">Enter your password </label>
+        <input type="password" name="password" id="pw" minlength="8" required maxlength="30">
+
+    <!-- <br><br>
+    <label for="DOB">Enter your DOB :</label>
+    <input type="date" id="DOB" name="DOB">  -->
+
+    <!-- <br><br>
+    <label for="color">Enter your fav color :</label>
+    <input type="color" id="color" name="color">  -->
+
+     <br><br>
+        <label for="gender">Enter your Gender</label>
+        <input type="radio" name="gender" id="gender"  >
+    <br>
+ 
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+
+</form>
 
 </body>
 </html>
