@@ -1,0 +1,51 @@
+#item-1 {
+    background-color:orange;
+    height: 100px;
+    /* width:100px; */
+    padding:25px;
+ 
+    border-width: 8px;
+    border-color: black;
+    border-style: solid;
+
+    border-bottom-width: 0px;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+
+}
+#item-2 {
+    background-color:white;
+    height: 200px;
+    /* width:100px; */
+    padding:25px;
+
+    border-width: 10px;
+    border-color: black;
+    border-style: solid;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center; /* Centers the image horizontally */
+  align-items: center;     /* Centers the image vertically */
+  height: 192px;  
+  
+   border-width: 8px;
+    border-color: black;
+    border-style: solid;/* Optional: Gives the container a height to show vertical centering */
+}
+
+#item-3 {
+    background-color:green ;
+    height: 100px;
+    /* width:100px; */
+    padding:25px;
+    
+    border-width: 8px;
+    border-color: black;
+    border-style: solid;
+
+    border-top-width: 0px;
+    border-top-color: black;
+    border-top-style: solid;
+}

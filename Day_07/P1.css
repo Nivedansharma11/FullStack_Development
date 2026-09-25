@@ -1,0 +1,17 @@
+body {
+    background-color:yellowgreen
+}
+
+h1 {
+    color:black;
+    background-color: bisque;
+    text-align: center;
+
+}
+
+h2 {
+    color:black;
+    text-decoration: wavy;
+    text-align: justify;
+    padding: 50px;
+}
