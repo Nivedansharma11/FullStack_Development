@@ -1,0 +1,11 @@
+p {
+color: black;
+text-decoration: underline line-through;
+text-decoration-color: blueviolet;
+}
+
+a {
+    text-decoration:none ;
+    text-decoration-color: red;
+}
+
