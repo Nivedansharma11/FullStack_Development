@@ -1,0 +1,21 @@
+/* .card {
+    padding: 20px;
+    background-color: chartreuse;
+}
+
+.big.bg-green {
+
+    background-color: aquamarine;
+}
+
+.big.card {
+    background-color: blueviolet;
+} */
+
+.text-underline {
+    text-decoration: underline;
+}
+
+p.text-underline {
+    color: blue;
+}
