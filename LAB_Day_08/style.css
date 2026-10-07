@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+Body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.a {
+    width: 85vw;
+    height: 76vh;
+    background-color:darkslategray;
+    border: solid 10px black;
+    padding: 20px;
+    margin: 20px;
+
+}
+
+.b {
+
+    width: 200px;
+    height: 200px;
+    background-color: steelblue;
+    border: solid 10px black;
+    padding: 20px;
+    margin: 20px;
+}
