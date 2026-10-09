@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial,sans-serif;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight:500 ;
+}
+
+.nav{
+    font-size: 12px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    color:gainsboro ;
+
+}
+
+a {
+    color: white;
+}
+
+.cart {
+    background-color: rgba(218,165,32,0.8);
+    padding: 5px 15px;
+    border-radius:20px;
+}
+a {
+    text-decoration: whitesmoke;
+    font-size: 15px;
+}
+.navbar {
+    background-color: rgba(3, 37, 3, 0.8);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px ;
+    align-items: center;
+    color: white;
+    
+}
+
+.hero {
+    background-color: blueviolet;
+    height: 500px;
+    width: 100%;
+    padding: 35px;
+
+    
+}
+
+.M-1 {
+    color: blanchedalmond;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+}
+.M-2 {
+    color: white;
+    font-size: 22px;
+    display: flex;
+     justify-content: center;
+}
