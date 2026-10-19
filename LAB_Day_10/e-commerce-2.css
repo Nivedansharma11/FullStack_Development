@@ -1,0 +1,286 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial,sans-serif;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight:500 ;
+}
+
+.nav{
+    font-size: 12px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    color:gainsboro ;
+
+}
+
+a {
+    color: white;
+}
+
+.cart {
+    background-color: rgba(229,195,104,0.9);
+    padding: 5px 15px;
+    border-radius:20px;
+}
+a {
+    text-decoration: whitesmoke;
+    font-size: 15px;
+}
+.navbar {
+    background-color: rgba(4, 31, 25, 0.8);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px ;
+    align-items: center;
+    color: white;
+    
+}
+
+.hero {
+    background-color: rgba(130,111,91);
+    height: 400px;
+    width: 100%;
+    padding: 35px;
+    text-align: center;
+    
+}
+
+#l1 {
+    color:rgb(185,151,91);
+    padding: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    opacity:0.5;
+    font-size: 18px;
+
+    }
+
+#l2 {
+    color: white;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#l3 {
+    color: white;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#l4 {
+    color: white;
+    opacity: 0.5;
+    padding: 5px;
+}
+
+#l5 {
+    color: white;
+    opacity: 0.5;
+    padding: 5px;
+}
+
+.shop {
+    background-color: rgba(229,195,104,0.9);
+    padding: 10px 40px;
+    margin: 20px;
+    border-radius: 20px;
+    opacity: 0.8;
+    font-size: 18px;
+    
+}
+
+.features {
+    height: 550px;
+    width: 100%;
+    background-color:seashell ;
+    text-align: center;
+}
+
+.l6 {
+    margin-top:40px ;
+    color: rgb(185,151,91);
+    font-size: 16px;
+}
+
+.l7 {
+    padding: 10px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    opacity: 0.8;
+}
+
+.l8 {
+    color: grey;
+    opacity: 0.8;
+    font-size: 15px;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    
+}
+
+.card1 {
+    margin: 10px;
+}
+
+.upper1 {
+    height:180px;
+    width: 250px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: rgb(203, 157, 114);
+}
+
+.new {
+    margin: 10px;
+    text-align: left;
+    margin-top: 15px;
+    position: absolute;
+
+    
+}
+
+.new-1 {
+    color:white;
+    text-align :left;
+    background-color: goldenrod;
+    border-radius:15px;
+    font-size:12px;
+    padding: 6px 15px;
+}
+
+.lower1 {
+    height: 120px;
+    background-color: white;
+    border-bottom-left-radius:20px ;
+    border-bottom-right-radius:20px;
+}
+
+.line1 {
+    text-align: start;
+    padding-top:15px;
+    padding-left:18px;
+    font-family: 'Times New Roman', Times, serif;
+    opacity: 0.6;
+    font-weight:bolder;
+    font-size: 18px;
+    
+}
+
+.line2 {
+    text-align: start;
+    padding-top: 8px;
+    padding-left:18px;
+    opacity: 0.6;
+    font-size: 12px;
+    
+}
+
+.checkout {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cost {
+    text-align: start;
+    padding: 20px 18px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.atc {
+    border: 1px solid black ;
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px 20px;
+    padding: 10px 22px;
+    font-size: 15px;
+    opacity: 0.8;
+}
+.card2 {
+    margin: 10px;
+}
+
+.upper2 {
+    height:180px;
+    width: 250px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: rgb(138, 157, 118);
+}
+
+.lower2 {
+    height: 120px;
+    background-color: white;
+    border-bottom-left-radius:20px ;
+    border-bottom-right-radius:20px;
+}
+
+
+.card3 {
+    margin: 10px;
+}
+
+.upper3 {
+    height:180px;
+    width: 250px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: rgb(195, 167, 185);
+}
+
+.new {
+    margin: 10px;
+    text-align: left;
+    margin-top: 15px;
+    position: absolute;
+    
+}
+
+.new-1 {
+    color:white;
+    text-align :left;
+    background-color: goldenrod;
+    border-radius:15px;
+    font-size:12px;
+    padding: 6px 15px;
+}
+
+
+.lower3 {
+    height: 120px;
+    background-color: white;
+    border-bottom-left-radius:20px ;
+    border-bottom-right-radius:20px;
+}
+
+
+.footer {
+    margin-top: 60px;
+    padding: 20px;
+    border: solid black 1px;
+    height: 100px;
+    width: 100%;
+    background-color: rgb(35, 52, 42);
+}
+
+.fl1 {
+    color:  rgb(165, 160, 160);
+    margin-top: 10px;
+}
+
+.fl2 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    color:   rgb(165, 160, 160);
+    margin-top: 10px;
+}
